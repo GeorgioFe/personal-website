@@ -1,7 +1,16 @@
 import type { ReactNode } from "react";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Sidebar from "./components/sidebar/Sidebar";
+import Sidebar from "../components/sidebar/Sidebar";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Georgio Feghali",
+  description: "Georgio Feghali's personal website.",
+  icons: {
+    icon: "/georgio_feghali_logo.png"
+  },
+};
 
 const inter = Inter({
   subsets: ["latin"],

@@ -28,3 +28,14 @@ body {
 .font-inter {
   font-family: var(--font-inter), sans-serif;
 }
+
+@layer utilities {
+  .main-gradient {
+    background-image: linear-gradient(to right, #b92b27, #1565c0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline;
+  }
+}
