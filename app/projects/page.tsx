@@ -2,6 +2,7 @@ import "../globals.css";
 import AnimatedSection from "@/components/AnimatedSection";
 import ProjectCard from "@/components/projects/ProjectCard";
 import { getProjects } from "@/lib/utils/projectUtils";
+import Footer from "@/components/footer/Footer";
 
 export default function Projects() {
   const projects = getProjects().sort((a, b) => Number(b.year) - Number(a.year));
@@ -20,6 +21,7 @@ export default function Projects() {
           </div>
         </AnimatedSection>
       </div>
+      <Footer />
     </main>
   );
 }

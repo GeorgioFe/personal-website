@@ -24,9 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="flex font-inter text-[14px]">
+      <body className="font-inter text-[14px]">
         <Sidebar />
-        <main className="flex-1">{children}</main>
+        <main className="ml-72">{children}</main>
       </body>
     </html>
   );

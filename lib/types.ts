@@ -9,4 +9,8 @@ export type Project = {
   links?: { type: "github" | "paper" | "website"; href: string }[];
 };
 
-// To-do: Blog Type
+// Snapshot Type
+export type Snapshot = {
+  src: string;
+  alt: string;
+};
