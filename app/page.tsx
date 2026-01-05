@@ -13,7 +13,7 @@ export default function Home() {
     <AnimatedSection>
       <main className="bg-black text-white">
         <HomeHeroSection />
-        <HeroDivider />
+        <SnapshotsDivider />
         <ProjectsSection />
         <ProjectsDivider />
         <SnapshotsSection />
