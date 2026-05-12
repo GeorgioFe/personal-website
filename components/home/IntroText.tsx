@@ -4,16 +4,16 @@ export default function IntroText() {
       <p>
         I’m a computer engineering graduate passionate about building{" "}
         <span className="main-gradient">
-          human–machine interfaces
+          multimodal AI systems
         </span>{" "}
-        that augment human capability.
+        that can advance healthcare and augment human capability.
       </p>
 
       <p>
         I am interested in pursuing graduate study at the intersection of{" "}
         <span className="main-gradient">
           AI, robotics, and neuroengineering
-        </span>, with applications in medical robotics, bionic systems, and brain–computer interfaces.
+        </span>, with applications in biomedical AI, neuroengineering, and intelligent assistive and robotic systems.
       </p>
     </div>
   );
