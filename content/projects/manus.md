@@ -1,8 +1,8 @@
 ---
 title: Manus
-subtitle: Real-Time ASL Letter Recognition
+subtitle: Landmark Based Model for Real-Time ASL Letter Recognition
 year: 2026
-thumbnailSrc: /georgio_feghali_logo.png
+thumbnailSrc: /projects/manus.jpeg
 links:
     - type: github
       href: https://github.com/GeorgioFe/manus
